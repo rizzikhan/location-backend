@@ -28,15 +28,14 @@ location-backend/
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/location-backend.git
+   git clone https://github.com/rizzikhan/location-backend.git
    cd location-backend
    ```
 
 2. **Set Up Virtual Environment:**
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   Conda environment
    ```
 
 3. **Install Dependencies:**
@@ -49,7 +48,7 @@ location-backend/
 
    - Add your PostgreSQL database URL inside `main.py`:
      ```python
-     DATABASE_URL = "postgresql://username:password@hostname:port/dbname"
+     DATABASE_URL = "postgresql://neondb_owner:npg_1JGo0DBRbcyq@ep-still-butterfly-a8tudp7p-pooler.eastus2.azure.neon.tech/locations?sslmode=require"
      ```
 
 5. **Run the API Locally:**
